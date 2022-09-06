@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www/thymeleaf.org"
+	  xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+      </head>
+      <body>
+      <div>
+      <h1> Adding Employees </h1>
+      </div>
+      <form action ="#" th:action="@{/rest}" method="post">
+      		<table>
+      		<tbody>
+      		<tr>
+      				<th>Employee Name</th>
+      				<td><input type="text" name="name" value=#{blankemp.name}></td>
+      		</tr>
+      		<tr>
+      				<th>Employee city</th>
+      				<input type="text" name="city" value=#{blankemp.city}>
+      		</tr>
+      		<tr>
+      			<input type="submit" id="submitButton" th:value="Save">
+      			<input type="submit" id="restButton" th:value="Reset">
+      		</tr>
+      		</tbody>
+      		</table>
+      </form>
+      	
+      
+      </body>
+</html>

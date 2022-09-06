@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;MyFirstProject/src/oop.polymorphism&apos;&#x0D;&#x0A;- Original project: &apos;MyFirstProject&apos;&#x0D;&#x0A;- Destination element: &apos;MyFirstProject/src/oop.polymorphism&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     oop.inheritance.Dog.java&#x0D;&#x0A;     oop.inheritance.Animal.java&#x0D;&#x0A;     oop.inheritance.Cat.java&#x0D;&#x0A;     oop.inheritance.MainApp.java" description="Copy compilation units" destination="/src&lt;oop.polymorphism" element1="/src&lt;oop.inheritance{Dog.java" element2="/src&lt;oop.inheritance{Animal.java" element3="/src&lt;oop.inheritance{Cat.java" element4="/src&lt;oop.inheritance{MainApp.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1660113207435" units="4" version="1.0"/>
+</session>

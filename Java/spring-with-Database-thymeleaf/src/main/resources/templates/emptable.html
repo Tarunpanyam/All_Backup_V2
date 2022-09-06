@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www/thymeleaf.org"
+	  xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+      </head>
+      <body>
+      <div>
+      <h1> List of all Employees </h1>
+      </div>
+      <table>
+      <thead>
+      		<tr>
+      			<th> Employee Id </th>
+      			<th> Employee Id </th>
+      			<th> Employee Id </th>
+      		</tr>
+      </thead>
+      <tbody>
+      <tr th:if="${lst_emp.empty}">
+      		<td> No record to displayed </td>
+      </tr>
+      <tr th:each="emp_obj:${lst_emp}">
+      		<td th:text="${emp_obj.empId}">No Employee Id available </td>
+      		<td th:text="${emp_obj.empName}">No Employee Name available </td>
+      		<td th:text="${emp_obj.empCity}">No Employee city available </td>
+      			<td>	
+      
+      </body>
+</html>

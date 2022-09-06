@@ -1,0 +1,12 @@
+package initial;
+
+public class Intial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name = "Tarun";
+		name = name + String.valueOf(3);
+		System.out.println(name instanceof String );
+	}
+
+}

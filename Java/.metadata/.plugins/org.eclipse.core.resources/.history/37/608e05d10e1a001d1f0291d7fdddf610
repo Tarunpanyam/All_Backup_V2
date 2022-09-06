@@ -1,0 +1,12 @@
+package com.tarun.hibernate_annotation;
+
+@Entity
+public class Author {
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
+    private Long authorID;
+    private String authorName;
+    private Boolean bookPublished;
+    @Temporal(TIMESTAMP)
+    private Date dateOfPublication;
+   }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:int="http://www.springframework.org/schema/integration"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/integration
+           https://www.springframework.org/schema/integration/spring-integratio.xsd">
+
+<!--            <bean class="com.tarkesh.springcore.springcore.model.Employee" id="employee" ></bean> -->
+           <bean class="com.tarun.springcore.lifecycle.lifecycle.Logger" 
+           			id="logger_class" init-method="init_method"
+           			destroy-method="destroy_method" scope="singleton" >
+           </bean>
+           
+           
+</beans>

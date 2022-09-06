@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    <!-- The accent you speak known as dialect -->
+    
+    <!--
+    org.mariadb.jdbc.Driver
+    jdbc:mariadb://localhost/trialdb
+    org.hibernate.dialect.MariaDB103Dialect    
+     -->
+    <property name="hibernate.dialect">org.hibernate.dialect.MariaDB103Dialect</property>
+    <property name="hibernate.connection.driver_class">org.mariadb.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mariadb://localhost:3307/trialdb</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+    <property name="hibernate.hbm2ddl.auto">update</property> <!-- Not good in production environment -->    
+    <property name="hibernate.show_sql">true</property>  <!-- Not good in production environment -->
+    <mapping class="com.dbs.tarun.one2one_bidirectional.Charger"/>
+        <mapping class="com.dbs.tarun.one2one_bidirectional.Mobile"/>
+    </session-factory>
+</hibernate-configuration>

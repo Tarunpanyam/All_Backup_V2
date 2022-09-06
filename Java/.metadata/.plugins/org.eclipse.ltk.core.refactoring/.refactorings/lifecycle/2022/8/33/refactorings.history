@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Logger.java&apos; to &apos;springcore/src/main/java/com.tarun.springcore.springcore&apos;&#x0D;&#x0A;- Original project: &apos;lifecycle&apos;&#x0D;&#x0A;- Destination element: &apos;springcore/src/main/java/com.tarun.springcore.springcore&apos;&#x0D;&#x0A;- Original element: &apos;com.tarun.springcore.lifecycle.lifecycle.Logger.java&apos;" description="Copy compilation unit" destination="=springcore/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tarun.springcore.springcore" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tarun.springcore.lifecycle.lifecycle{Logger.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1660208612245" units="1" version="1.0"/>
+</session>

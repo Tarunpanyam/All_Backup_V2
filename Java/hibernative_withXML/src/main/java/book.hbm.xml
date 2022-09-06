@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.tarun.hibernative_withXML.model.Book"
+        table="BOOK_TABLE_IN_DATABASE">
+        <id name="isbn" column="BOOK_ISBN">
+            <generator class="identity" /> <!-- Generator can be ignored -->
+        </id>
+        <property name="title" column="BOOK_TITLE" unique="true" length="50"/>
+        <property name="price" column="BOOK_COST" update="true"/>
+        <property name="pages" column="PAGES" />
+        <!-- <property name="isbn" column="ISBN" unique="true" length="10" /> -->
+    </class>
+</hibernate-mapping>
